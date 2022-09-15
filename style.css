@@ -28,6 +28,7 @@ textarea {
 	outline: none;
 	background-color: #ccc;
 	font-size: 23px;
+	overflow: scroll;
 }
 p {
 	width: 100%;
@@ -35,6 +36,11 @@ p {
 	margin-top: -30px;
 	padding-right: 10px;
 	color: rgb(10, 71, 69);
+}
+a{
+	text-decoration: none;
+	color: rgb(47, 58, 36);
+	font-size: 50px;
 }
 @media (max-width: 500px) {
 	.container {

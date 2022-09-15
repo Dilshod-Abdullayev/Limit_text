@@ -1,6 +1,7 @@
 const myText = document.querySelector('#my-text');
 const result = document.querySelector('#result');
-let limit = 50;
+let limit_user = prompt("Iltimoz o'z limitingizni kiriting");
+let limit = +limit_user;
 result.textContent = 0 + '/' + limit;
 myText.addEventListener('input', function() {
 	let textLength = myText.value.length;
